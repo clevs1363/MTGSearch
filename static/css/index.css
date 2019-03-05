@@ -1,0 +1,76 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  body {
+    background-image: url('../images/syncopate.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  section.mainContent {
+    /*background: gray;
+    opacity: 0.7;*/
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    min-height: 500px;
+    padding: 10px;
+  }
+  
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: #F0F0F0;
+  }
+  
+  input.cardSearch {
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 10px;
+  }
+  
+  input.cardSearch::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-family: 'Montserrat', sans-serif;
+  }
+  input.cardSearch::-moz-placeholder { /* Firefox 19+ */
+    font-family: 'Montserrat', sans-serif;
+  }
+  input.cardSearch:-ms-input-placeholder { /* IE 10+ */
+    font-family: 'Montserrat', sans-serif;
+  }
+  input.cardSearch:-moz-placeholder { /* Firefox 18- */
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  button.submit {
+    background: #1e5799; /* Old browsers */
+    background: -webkit-linear-gradient(top, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 30px;
+  }
+  
+  img#cardImgId {
+    margin: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }

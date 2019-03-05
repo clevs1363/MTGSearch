@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Card Search</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src='../static/js/graphs.js'></script>
+    <link href='../static/css/index.css' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+
+<body>
+    <section class='mainContent'>
+    <h1>Search Any Magic: the Gathering Card!</h1>
+    <form>
+        <input type='text' placeholder='&nbsp;&nbsp;Search by card name:' id='cardSearch' class='cardSearch'>
+        <br>
+        <button name='submit' onclick='loadGraphs()' type='button' class='submit'>Submit</button>
+    </form>
+    <div id='cardImgDiv'></div>
+    <div id='barGraph'></div>
+    <div id='table'></div>
+    </section>
+</body>
+
+</html>
+
